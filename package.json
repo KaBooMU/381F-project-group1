@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "description": "financial-management-app",
+  "author": "123",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "nodemon": "3.1.7",
+    "mongoose": "^8.4.3",
+    "body-parser": "*",
+    "cookie-session": "*",
+    "method-override": "*"
+  },
+  "engine": "node >= 0.10.0",
+  "scripts": {
+    "start": "nodemon server"
+  }
+}
