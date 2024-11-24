@@ -16,7 +16,9 @@
   </div>
   
   <body class="p-3 m-0 border-0 bd-example">
-
+<% if (error) { %>
+        <div class="error"><%= error %></div> <!--Error-->
+    <% } %>
      
     <form method="POST" action="/login">
       <div class="mb-3">
