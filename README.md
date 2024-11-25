@@ -8,9 +8,9 @@
           - models (folder, if you have): what model files included, …
 
 3. The cloud-based server URL (your server host running on the cloud platform) for testing:
-          - E.g., https://381project-group1.render.com/
-
-4. Operation guides (like a user flow) for your server
+          - https://three81f-project-group1.onrender.com
+   
+5. Operation guides (like a user flow) for your server
           - the use of Login/Logout pages: a list of valid login information, sign in steps? …
           - the use of your CRUD web pages: which button or UI is used to implement create, read, update, and delete?
           - the use your RESTful CRUD services: the lists of APIs? HTTP request types? Path URI? How to test them? CURL testing commands?
