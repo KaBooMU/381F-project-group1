@@ -52,7 +52,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/register', (req, res) => {
-    res.status(200).render('register', { error: null });
+    res.status(201).render('register', { error: null });
 });
 
 app.get('/login', (req, res) => {

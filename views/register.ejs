@@ -17,8 +17,8 @@
   
   <body class="p-3 m-0 border-0 bd-example">
 
-    <% if (error) { %>
-        <div class="error-danger"><%= error %></div> <!--Error-->
+     <% if (error) { %>
+        <div class="error text-danger" ><%= error %></div> 
     <% } %>
     
     <form method="POST" action="/register">
@@ -34,7 +34,7 @@
      
       	<div class="d-flex gap-2">
       		<button type="submit" class="btn btn-primary">SignUp</button>
-      		<a type="submit" class="btn btn-danger" href="/Login">Login</a>
+      		<button type="submit" class="btn btn-danger" onclick="location.href='/Login'">Login</button>
       	</div>
       
     </form>
